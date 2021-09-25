@@ -1,0 +1,142 @@
+body {
+		font-family:Tajawal;
+		/* background: #394a3c26; */
+		color: black;
+  font-size: 23px;
+  background: #DBDBDB url(https://cbox.im/i/nqon2.png);
+  border-radius: 53px 0px 0px 0px;
+  width:100% center;
+}
+
+#header {margin-top:-9px;width:100%;border-radius: 0px 0px 20px 20px;z-index:2;background-color: #53472f26;}
+
+.checkbox {
+  display: none;
+} 
+.label{
+			 -webkit-transition:.3s;
+			 -moz-transition:.3s;
+			 -o-transition:.3s;
+			 transition:.3s;
+			 width: 69px;
+			 display: inline-block;
+			 background-size:cover;
+			 margin:.5em;
+			 border-radius: 0px;
+}
+
+.checkbox:checked + .label {
+		 -webkit-transition:.3s;
+	 -moz-transition:.3s;
+	 -o-transition:.3s;
+	 transition:.3s;
+	box-shadow:inset 0px 0px 10px rgba #000;
+		background:#F5F5F5
+			background:#DCDCDC;
+color:#9e003;
+}
+
+#mobiledropmenu:checked ~ .title {
+	 -webkit-transition:1s;
+	width: 100%;
+	height: 170px;
+	opacity: 1;
+}
+	
+.title {
+	 -webkit-transition:1s;
+	width: 0%;
+	height: 0px;
+	opacity: 0;
+}
+			
+			.button {
+				color:#1C441D;
+				text-decoration:none;
+				/* border-top: 14px solid #d61515; */
+				text-align:center;
+				text-transform:uppercase;
+				width:100%;
+				padding:4px;
+				}
+					
+					.button:hover {
+					cursor:pointer;
+					background:#f9f9f961;
+					color:#515151;
+
+							}
+							
+
+h1 {
+	width:100%;
+	color:rgba(188, 230, 255, 0.2);
+	text-align:center;
+	text-transform:uppercase;
+	text-shadow: 1px 3px 6px #E5F2FF,
+								0 0 0 #47a0d3,
+							1px 4px 6px #E5F2FF;
+	font-weight:lighter;
+	font-size:2.5em;
+	position:absolute;
+	margin-top:20%;
+}
+
+a:link
+{text-decoration: none;border-radius: 8px 8px 8px 8px;}
+a:visited
+{
+text-decoration: none;
+}
+a:active
+{
+text-decoration: none;
+}
+a:hover
+{
+text-decoration: none;
+}
+a.forumlink:hover
+{
+text-decoration:none;
+}
+
+  /* SMO ALAMIR */
+
+      .logo 
+      {
+       /* background: #fd6969; */
+       width: 320px;
+       height: 210px;
+       display: block;
+       text-indent: -9999px;
+       -moz-border-radius: 1em 3em 1em 1em;
+       border-radius: 16px 16px 16px 16px;
+       }
+        
+   #nav {
+      width: 100%;
+      float: center;
+      margin: 5 5 4em 5;
+      padding: 0;
+      margin:-42 auto;
+      /* height: 38px; */
+      list-style: none;
+      color: #333;
+      border-color: #ddd;
+     }
+
+   #nav li {
+      float: left;
+      }
+   #nav li a {
+      padding: 8px 10px;
+      margin: 0px auto;
+      text-decoration: none;
+      font-weight: bold;
+      color: #1C441D;
+      border-right: 0px solid #F39428;
+      }      
+         #nav li a:hover {
+      color: #86415e;
+      background-color: #f9f9f961; }
